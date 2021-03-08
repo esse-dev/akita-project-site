@@ -1,14 +1,41 @@
-body {
-    margin:40px auto;
-    max-width:850px;
-    font-family: sans-serif;
-    line-height:1.6;
-    font-size:19px;
-    color:#444;
-    padding:0 10px
+html {
+	background-color: #E6E3D2;
 }
-h1,h2,h3{
-    color: black;
-    line-height:1.2;
-    letter-spacing: 2px;
+
+body {
+	margin: 4rem auto;
+	max-width: 44rem;
+	font-family: sans-serif;
+	line-height: 1.6;
+	font-size: 1.2rem;
+	color: black;
+	padding: 0 2rem;
+}
+
+h1 {
+	font-size: 2.6rem;
+}
+
+h1,h2,h3 {
+	color: black;
+	line-height: 1.2;
+	letter-spacing: 0.1rem;
+}
+
+img {
+	width: 100%;
+	border-radius: 1rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #A84900;
+}
+
+section {
+	margin-top: 5rem;
+}
+
+.intro {
+	padding: 1rem 2rem;
+	border: 0.4rem solid black;
 }
